@@ -17,3 +17,6 @@ a {
   color: white;
   margin-right: 35px;
 }
+a:hover {
+  color: rgb(255,215,0);
+}
