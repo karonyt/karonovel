@@ -69,9 +69,4 @@ a.btn--gray:hover {
   color: #fff;
   background: ##ffd700;
 }
-.inner {
-  padding-top: 150px;
-  display: flex;
-  justify-content: space-evenly;
-}
 
