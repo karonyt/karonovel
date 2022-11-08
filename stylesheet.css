@@ -23,3 +23,13 @@ a {
 a:hover {
   color: rgb(255,215,0);
 }
+.btn--gray,
+a.btn--gray {
+  color: #fff;
+  background-color: ##696969;
+}
+.btn--gray:hover,
+a.btn--gray:hover {
+  color: #fff;
+  background: ##ffd700;
+}
