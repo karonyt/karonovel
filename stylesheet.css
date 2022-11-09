@@ -69,4 +69,6 @@ a.btn--gray:hover {
   color: #fff;
   background: ##ffd700;
 }
-
+img:hover {
+   opacity: 0.5;
+}
