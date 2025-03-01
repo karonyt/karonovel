@@ -1,0 +1,42 @@
+[
+  {
+    "id": "novel1",
+    "title": "桜の森の満開の下",
+    "author": "坂口安吾",
+    "cover": "https://images.unsplash.com/photo-1613932531821-e8216ad1bb0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "description": "坂口安吾による短編小説。美しい桜の森に潜む恐ろしい秘密を描いた作品。",
+    "filePath": "/novels/novel1/full.txt"
+  },
+  {
+    "id": "novel2",
+    "title": "雪国",
+    "author": "川端康成",
+    "cover": "https://images.unsplash.com/photo-1547408825-0a6e8028fe50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "description": "川端康成によるノーベル文学賞受賞作品。雪深い地方を舞台にした恋愛小説。",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "第一章",
+        "filePath": "/novels/novel2/chapter1.txt"
+      },
+      {
+        "id": "ch2",
+        "title": "第二章",
+        "filePath": "/novels/novel2/chapter2.txt"
+      },
+      {
+        "id": "ch3",
+        "title": "第三章",
+        "filePath": "/novels/novel2/chapter3.txt"
+      }
+    ]
+  },
+  {
+    "id": "novel3",
+    "title": "こころ",
+    "author": "夏目漱石",
+    "cover": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "description": "夏目漱石の代表作。明治時代を背景に、人間の「こころ」の闇を描いた作品。",
+    "filePath": "/novels/novel3/full.txt"
+  }
+]
