@@ -161,11 +161,11 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
             }`}
           >
             <ChevronLeft size={16} />
-            <span>前話</span>
+            <span></span>
           </button>
           
           <div className="text-sm font-medium text-gray-700">
-            第 {currentChapter + 1} 話
+            {currentChapter + 1} / {novel.chapters.length}
           </div>
           
           <button 
@@ -177,7 +177,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
                 : 'text-indigo-600 hover:bg-indigo-50'
             }`}
           >
-            <span>次話</span>
+            <span></span>
             <ChevronRight size={16} />
           </button>
         </div>
