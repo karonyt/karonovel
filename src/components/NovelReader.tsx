@@ -70,7 +70,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
 
   // Format text content with proper paragraphs
   const formatContent = (text: string) => {
-    return text.split('\n\n').map((paragraph, index) => (
+    return text.split('\n').map((paragraph, index) => (
       <p key={index}>{paragraph}</p>
     ));
   };
