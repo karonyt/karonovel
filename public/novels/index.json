@@ -62,5 +62,29 @@
         "filePath": "/novels/novel1/ch11.txt"
       }
     ]
+  },
+  {
+    "id": "novel2",
+    "title": "ORIGIN OF DESTROY",
+    "author": "YuppyTV",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QEZuxLo_zvFCMKLbMyH5pFU-LihRIeLXMY-QHxEMIgeNOVhvKeSMiNsIxrzNFHMsUv0nxYYl_b5RVqLtJcRgJokPMn8IVpkRDKfnrMr1dsoghyXHGXRakLCV1wX0FBGlltS5W34zMGV4/s1600/no_image_square.jpg",
+    "description": "",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "第1話 Hell",
+        "filePath": "/novels/novel2/ch1.txt"
+      },
+      {
+        "id": "ch2",
+        "title": "第2話 DARK",
+        "filePath": "/novels/novel2/ch2.txt"
+      },
+      {
+        "id": "ch3",
+        "title": "第3話 FREEZE",
+        "filePath": "/novels/novel2/ch3.txt"
+      }
+    ]
   }
 ]
