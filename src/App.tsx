@@ -84,7 +84,7 @@ function App() {
               <Book size={64} className="text-indigo-500 mb-4" />
               <h2 className="text-2xl font-bold text-gray-800 mb-2">KaroNovelへようこそ！</h2>
               <p className="text-gray-600 max-w-md">
-                読みたいサイトを選ぼう。読書履歴は自動で保存されるよ。
+                読みたい小説を選ぼう。
               </p>
             </div>
           )}
