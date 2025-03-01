@@ -49,7 +49,7 @@ function App() {
             </button>
             <div className="flex items-center space-x-2" onClick={() => setSelectedNovel(null)} style={{cursor: 'pointer'}}>
               <Book size={24} />
-              <h1 className="text-xl font-bold">Novel Reader</h1>
+              <h1 className="text-xl font-bold">KaroNovel</h1>
             </div>
           </div>
           {selectedNovel && (
