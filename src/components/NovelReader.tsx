@@ -15,7 +15,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
   // Load novel content
   useEffect(() => {
     setLoading(true);
-    
+
     // If the novel has chapters, load the chapter structure first
     if (novel.chapters) {
       setChapters(novel.chapters);
@@ -79,9 +79,9 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
     <div className="max-w-3xl mx-auto">
       {/* Novel info */}
       <div className="mb-6 md:flex items-start space-x-4 hidden">
-        <img 
-          src={novel.cover} 
-          alt={`${novel.title} cover`} 
+        <img
+          src={novel.cover}
+          alt={`${novel.title} cover`}
           className="w-24 h-36 object-cover rounded shadow-md"
         />
         <div>
@@ -94,31 +94,29 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
       {/* Chapter navigation if there are chapters */}
       {novel.chapters && novel.chapters.length > 0 && (
         <div className="flex justify-between items-center mb-4 bg-white p-3 rounded-lg shadow-sm">
-          <button 
+          <button
             onClick={prevChapter}
             disabled={currentChapter === 0}
-            className={`flex items-center space-x-1 px-3 py-1 rounded ${
-              currentChapter === 0 
-                ? 'text-gray-400 cursor-not-allowed' 
+            className={`flex items-center space-x-1 px-3 py-1 rounded ${currentChapter === 0
+                ? 'text-gray-400 cursor-not-allowed'
                 : 'text-indigo-600 hover:bg-indigo-50'
-            }`}
+              }`}
           >
             <ChevronLeft size={16} />
             <span>前</span>
           </button>
-          
+
           <div className="text-sm font-medium text-gray-700">
-            第 {currentChapter + 1} 章 {novel.chapters.length} 話
+            第 {currentChapter + 1} 話
           </div>
-          
-          <button 
+
+          <button
             onClick={nextChapter}
             disabled={currentChapter === novel.chapters.length - 1}
-            className={`flex items-center space-x-1 px-3 py-1 rounded ${
-              currentChapter === novel.chapters.length - 1 
-                ? 'text-gray-400 cursor-not-allowed' 
+            className={`flex items-center space-x-1 px-3 py-1 rounded ${currentChapter === novel.chapters.length - 1
+                ? 'text-gray-400 cursor-not-allowed'
                 : 'text-indigo-600 hover:bg-indigo-50'
-            }`}
+              }`}
           >
             <span>次</span>
             <ChevronRight size={16} />
@@ -148,42 +146,34 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
         )}
       </div>
 
-      {/* Bottom navigation for mobile */}
       {novel.chapters && novel.chapters.length > 0 && (
-        <div className="flex justify-between items-center mt-4 bg-white p-3 rounded-lg shadow-sm md:hidden sticky bottom-4">
-          <button 
+        <div className="flex justify-between items-center mb-4 bg-white p-3 rounded-lg shadow-sm">
+          <button
             onClick={prevChapter}
             disabled={currentChapter === 0}
-            className={`p-2 rounded-full ${
-              currentChapter === 0 
-                ? 'text-gray-400 cursor-not-allowed' 
+            className={`flex items-center space-x-1 px-3 py-1 rounded ${currentChapter === 0
+                ? 'text-gray-400 cursor-not-allowed'
                 : 'text-indigo-600 hover:bg-indigo-50'
-            }`}
-            aria-label="前の話"
+              }`}
           >
-            <ChevronLeft size={20} />
+            <ChevronLeft size={16} />
           </button>
-          
-          <div className="text-xs font-medium text-gray-700">
+
+          <div className="text-sm font-medium text-gray-700">
             {currentChapter + 1} / {novel.chapters.length}
           </div>
-          
-          <button 
+
+          <button
             onClick={nextChapter}
             disabled={currentChapter === novel.chapters.length - 1}
-            className={`p-2 rounded-full ${
-              currentChapter === novel.chapters.length - 1 
-                ? 'text-gray-400 cursor-not-allowed' 
+            className={`flex items-center space-x-1 px-3 py-1 rounded ${currentChapter === novel.chapters.length - 1
+                ? 'text-gray-400 cursor-not-allowed'
                 : 'text-indigo-600 hover:bg-indigo-50'
-            }`}
-            aria-label="次の話"
+              }`}
           >
-            <ChevronRight size={20} />
+            <ChevronRight size={16} />
           </button>
         </div>
       )}
-    </div>
-  );
-};
 
 export default NovelReader;
