@@ -1,42 +1,66 @@
 [
   {
     "id": "novel1",
-    "title": "桜の森の満開の下",
-    "author": "坂口安吾",
-    "cover": "https://images.unsplash.com/photo-1613932531821-e8216ad1bb0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "description": "坂口安吾による短編小説。美しい桜の森に潜む恐ろしい秘密を描いた作品。",
-    "filePath": "/novels/novel1/full.txt"
-  },
-  {
-    "id": "novel2",
-    "title": "雪国",
-    "author": "川端康成",
-    "cover": "https://images.unsplash.com/photo-1547408825-0a6e8028fe50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "description": "川端康成によるノーベル文学賞受賞作品。雪深い地方を舞台にした恋愛小説。",
+    "title": "青ペンとみこちのデート編",
+    "author": "Aoppencof",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QEZuxLo_zvFCMKLbMyH5pFU-LihRIeLXMY-QHxEMIgeNOVhvKeSMiNsIxrzNFHMsUv0nxYYl_b5RVqLtJcRgJokPMn8IVpkRDKfnrMr1dsoghyXHGXRakLCV1wX0FBGlltS5W34zMGV4/s1600/no_image_square.jpg",
+    "description": "あおぺんとみこちの青春恋愛小説",
     "chapters": [
       {
         "id": "ch1",
-        "title": "第一章",
-        "filePath": "/novels/novel2/chapter1.txt"
+        "title": "第1話 幸せなデート",
+        "filePath": "/novels/novel1/ch1.txt"
       },
       {
         "id": "ch2",
-        "title": "第二章",
-        "filePath": "/novels/novel2/chapter2.txt"
+        "title": "第2話 東南アジア旅行へ",
+        "filePath": "/novels/novel1/ch2.txt"
       },
       {
         "id": "ch3",
-        "title": "第三章",
-        "filePath": "/novels/novel2/chapter3.txt"
+        "title": "第3話 みこち、行方不明",
+        "filePath": "/novels/novel1/ch3.txt"
+      },
+      {
+        "id": "ch4",
+        "title": "第4話 臓器売買の真実",
+        "filePath": "/novels/novel1/ch4.txt"
+      },
+      {
+        "id": "ch5",
+        "title": "第5話 すいちゃんの裏切り",
+        "filePath": "/novels/novel1/ch5.txt"
+      },
+      {
+        "id": "ch6",
+        "title": "第6話 あまぎの死",
+        "filePath": "/novels/novel1/ch6.txt"
+      },
+      {
+        "id": "ch7",
+        "title": "第7話 現実の否認と狂気の始まり",
+        "filePath": "/novels/novel1/ch7.txt"
+      },
+      {
+        "id": "ch8",
+        "title": "第8話 受験当日、カンニングへ",
+        "filePath": "/novels/novel1/ch8.txt"
+      },
+      {
+        "id": "ch9",
+        "title": "第9話 精神病院へ収容",
+        "filePath": "/novels/novel1/ch9.txt"
+      },
+      {
+        "id": "ch10",
+        "title": "第10話 無限の地獄",
+        "filePath": "/novels/novel1/ch10.txt"
+      },
+      {
+        "id": "ch11",
+        "title": "最終話 存在の消滅",
+        "filePath": "/novels/novel1/ch11.txt"
       }
     ]
-  },
-  {
-    "id": "novel3",
-    "title": "こころ",
-    "author": "夏目漱石",
-    "cover": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    "description": "夏目漱石の代表作。明治時代を背景に、人間の「こころ」の闇を描いた作品。",
-    "filePath": "/novels/novel3/full.txt"
   }
 ]

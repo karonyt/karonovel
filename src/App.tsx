@@ -35,6 +35,25 @@ function App() {
   };
 
   return (
+    <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://karonyt.github.io/karonovel/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://karonyt.github.io/karonovel/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://karonyt.github.io/karonovel/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://karonyt.github.io/karonovel/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://karonyt.github.io/karonovel/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://karonyt.github.io/karonovel/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://karonyt.github.io/karonovel/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://karonyt.github.io/karonovel/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://karonyt.github.io/karonovel/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://karonyt.github.io/karonovel/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://karonyt.github.io/karonovel/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://karonyt.github.io/karonovel/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://karonyt.github.io/karonovel/favicon-16x16.png">
+    <link rel="manifest" href="https://karonyt.github.io/karonovel/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://karonyt.github.io/karonovel/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">    
+    </head>
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
       <header className="bg-indigo-700 text-white shadow-md">
@@ -82,9 +101,9 @@ function App() {
           ) : (
             <div className="flex flex-col items-center justify-center h-full text-center p-4">
               <Book size={64} className="text-indigo-500 mb-4" />
-              <h2 className="text-2xl font-bold text-gray-800 mb-2">Welcome to Novel Reader</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">KaroNovelへようこそ！</h2>
               <p className="text-gray-600 max-w-md">
-                Select a novel from the list to start reading. Your reading progress will be saved automatically.
+                読みたいサイトを選ぼう。読書履歴は自動で保存されるよ。
               </p>
             </div>
           )}

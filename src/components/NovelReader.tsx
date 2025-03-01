@@ -104,11 +104,11 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
             }`}
           >
             <ChevronLeft size={16} />
-            <span>Previous</span>
+            <span>前</span>
           </button>
           
           <div className="text-sm font-medium text-gray-700">
-            Chapter {currentChapter + 1} of {novel.chapters.length}
+            第 {currentChapter + 1} 章 {novel.chapters.length} 話
           </div>
           
           <button 
@@ -120,7 +120,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
                 : 'text-indigo-600 hover:bg-indigo-50'
             }`}
           >
-            <span>Next</span>
+            <span>次</span>
             <ChevronRight size={16} />
           </button>
         </div>
@@ -159,7 +159,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:bg-indigo-50'
             }`}
-            aria-label="Previous chapter"
+            aria-label="前の話"
           >
             <ChevronLeft size={20} />
           </button>
@@ -176,7 +176,7 @@ const NovelReader: React.FC<NovelReaderProps> = ({ novel }) => {
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:bg-indigo-50'
             }`}
-            aria-label="Next chapter"
+            aria-label="次の話"
           >
             <ChevronRight size={20} />
           </button>

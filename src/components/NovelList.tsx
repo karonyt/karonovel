@@ -44,7 +44,7 @@ const NovelList: React.FC<NovelListProps> = ({
 
   return (
     <div className="py-2">
-      <h2 className="px-4 text-lg font-semibold text-gray-800 mb-2">Novels</h2>
+      <h2 className="px-4 text-lg font-semibold text-gray-800 mb-2">小説リスト</h2>
       <ul>
         {novels.map(novel => (
           <li key={novel.id}>
