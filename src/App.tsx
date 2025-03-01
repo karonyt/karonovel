@@ -50,9 +50,6 @@ function App() {
     <link rel="icon" type="image/png" sizes="96x96" href="https://karonyt.github.io/karonovel/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://karonyt.github.io/karonovel/favicon-16x16.png">
     <link rel="manifest" href="https://karonyt.github.io/karonovel/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="https://karonyt.github.io/karonovel/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">    
     </head>
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
