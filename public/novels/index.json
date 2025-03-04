@@ -86,5 +86,98 @@
         "filePath": "/novels/novel2/ch3.txt"
       }
     ]
+  },
+  {
+    "id": "novel3",
+    "title": "RSK物語",
+    "author": "rsk bk",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QEZuxLo_zvFCMKLbMyH5pFU-LihRIeLXMY-QHxEMIgeNOVhvKeSMiNsIxrzNFHMsUv0nxYYl_b5RVqLtJcRgJokPMn8IVpkRDKfnrMr1dsoghyXHGXRakLCV1wX0FBGlltS5W34zMGV4/s1600/no_image_square.jpg",
+    "description": "",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "第1話 闇の力を手に入れたRsk",
+        "filePath": "/novels/novel3/ch1.txt"
+      }
+    ]
+  },
+  {
+    "id": "novel4",
+    "title": "青と桜の夏",
+    "author": "Aoppencof",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7QEZuxLo_zvFCMKLbMyH5pFU-LihRIeLXMY-QHxEMIgeNOVhvKeSMiNsIxrzNFHMsUv0nxYYl_b5RVqLtJcRgJokPMn8IVpkRDKfnrMr1dsoghyXHGXRakLCV1wX0FBGlltS5W34zMGV4/s1600/no_image_square.jpg",
+    "description": "あの青酸っぱくて切ない夏、一郎目の青ペンと大学に進んだみこちとの再会から始まり、幼馴染であるすいちゃんとコウタを交えた4人の関係が、友情と恋愛の狭間で揺れ動く。それぞれの片想いが交錯し、夏の京都での出来事を通じて成長していく全24話の物語。",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "第1話 再会の夏",
+        "filePath": "/novels/novel4/ch1.txt"
+      },
+      {
+        "id": "ch2",
+        "title": "第2話 置いてきぼり",
+        "filePath": "/novels/novel4/ch2.txt"
+      },
+      {
+        "id": "ch3",
+        "title": "第3話 琵琶湖の風",
+        "filePath": "/novels/novel4/ch3.txt"
+      },
+      {
+        "id": "ch4",
+        "title": "第4話 すいちゃんの想い",
+        "filePath": "/novels/novel4/ch4.txt"
+      },
+      {
+        "id": "ch5",
+        "title": "第5話 先手を取られたくない",
+        "filePath": "/novels/novel4/ch5.txt"
+      },
+      {
+        "id": "ch6",
+        "title": "第6話 決めた想い",
+        "filePath": "/novels/novel4/ch6.txt"
+      },
+      {
+        "id": "ch7",
+        "title": "第7話 たまたま見てしまった",
+        "filePath": "/novels/novel4/ch7.txt"
+      },
+      {
+        "id": "ch8",
+        "title": "第8話 楠の下での告白",
+        "filePath": "/novels/novel4/ch8.txt"
+      },
+      {
+        "id": "ch9",
+        "title": "第9話 交錯する夜",
+        "filePath": "/novels/novel4/ch9.txt"
+      },
+      {
+        "id": "ch10",
+        "title": "第10話 駆け引き",
+        "filePath": "/novels/novel4/ch10.txt"
+      },
+      {
+        "id": "ch11",
+        "title": "第11話 海の向こうに揺れる想い",
+        "filePath": "/novels/novel4/ch11.txt"
+      },
+      {
+        "id": "ch12",
+        "title": "第12話 桜の味を知ってしまった",
+        "filePath": "/novels/novel4/ch12.txt"
+      },
+      {
+        "id": "ch13",
+        "title": "第13話 揺らぐ夏の影",
+        "filePath": "/novels/novel4/ch13.txt"
+      },
+      {
+        "id": "ch14",
+        "title": "第14話 戻れない一線",
+        "filePath": "/novels/novel4/ch14.txt"
+      }
+    ]
   }
 ]
