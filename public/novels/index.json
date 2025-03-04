@@ -98,6 +98,26 @@
         "id": "ch1",
         "title": "第1話 闇の力を手に入れたRsk",
         "filePath": "/novels/novel3/ch1.txt"
+      },
+      {
+        "id": "ch2",
+        "title": "第2話 かろあーすの恐怖",
+        "filePath": "/novels/novel3/ch2.txt"
+      },
+      {
+        "id": "ch3",
+        "title": "第3話 呪いの攻撃",
+        "filePath": "/novels/novel3/ch3.txt"
+      },
+      {
+        "id": "ch4",
+        "title": "第4話 ゴーストハックと共に",
+        "filePath": "/novels/novel3/ch4.txt"
+      },
+      {
+        "id": "ch5",
+        "title": "第5話 崩壊",
+        "filePath": "/novels/novel3/ch5.txt"
       }
     ]
   },
